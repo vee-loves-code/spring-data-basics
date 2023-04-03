@@ -14,7 +14,7 @@ public class Main {
        EntityManagerFactory emf = Persistence.createEntityManagerFactory("JPA Basics");
        EntityManager em = emf.createEntityManager();
        Product p = new Product();
-       p.setName("Champagne");
+       p.setName("Rosset");
         em.getTransaction().begin();
         em.persist(p);
         em.getTransaction().commit();
